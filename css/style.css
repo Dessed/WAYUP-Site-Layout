@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Ubuntu', 'Roboto', sans-serif;
+    font-style: normal;
+    color: #201b2d;
+    margin: 0;
+    padding: 0 15px;
+}
+
+h1, span {
+    font-family:  'Ubuntu',  'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 37px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;  
+}
+
+/*header*/
+
+.header {
+    background: rgba(77,188,252,1);
+    background: -moz-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,145,218,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,188,252,1)), color-stop(100%, rgba(55,145,218,1)));
+    background: -webkit-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,145,218,1) 100%);
+    background: -o-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,145,218,1) 100%);
+    background: -ms-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,145,218,1) 100%);
+    background: linear-gradient(to right, rgba(77,188,252,1) 0%, rgba(55,145,218,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbcfc', endColorstr='#3791da', GradientType=1 );
+    color: #fff;
+}
+
+.logo {
+    padding-top: 62px;
+}
+
+.offer {
+    margin-top: 145px;
+    width: 565px;
+}
+
+span {
+    font-size: 59px;
+}
+
+.offer p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    margin: 45px 0 0 13px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    color: #201b2d;
+    width: 220px;
+    padding: 20px 0;
+    background-color: #ffd429;
+    margin-top: 45px; 
+    text-decoration: none;    
+    margin-right: 0;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*future*/
+
+.future-title {
+    margin-top: 107px;
+}
+
+.scroll {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.advantage {
+    width: 320px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.advantage-title {
+    margin: 27px 0 0 0;
+}
+
+.advantage p{
+    margin: 15px 0 0 0;
+    padding: 0 10px;
+}
