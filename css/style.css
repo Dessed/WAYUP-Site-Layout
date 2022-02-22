@@ -9,7 +9,6 @@ body {
     color: #201b2d;
     margin: 0 auto;
     padding: 0 15px;
-    width: 1900px;
 }
 
 h1, span {
@@ -51,7 +50,6 @@ h2 {
 }
 
 .offer {
-    padding-top: 145px;
     width: 565px;
 }
 
@@ -67,7 +65,8 @@ span {
     margin: 0;
 }
 
-.btn {
+.btn,
+.btn-order {
     display: block;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -89,6 +88,7 @@ span {
 .header-page {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /*future*/
@@ -108,7 +108,7 @@ span {
 }
 
 .advantage {
-    width: 320px;
+    width: 289px;
     padding-top: 70px;
     text-align: center;
     padding-bottom: 120px;
@@ -156,18 +156,22 @@ span {
     margin: 0;
 }
 
+.btn-order {
+    width: 340px;
+}
+
 /*footer*/
 
 .footer {
     background-color: #164d7a;
-    margin: 0 auto;
+    padding: 60px 0;
 }
 
 .text-footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-align: center;
-    padding: 60px 0;
+    
     color: #fff;
     margin: 0;
 }
